@@ -1,0 +1,5 @@
+table tr th{
+    border: 5px solid black;
+    text-align: center;
+    column-width: 50%;
+}

@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color:lightsteelblue;
+}
+
+.slider-wraper .image-list{
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+}
+
+.image-item{
+	width: 350px;
+	height: 400px;
+	object-fit: cover;
+}
